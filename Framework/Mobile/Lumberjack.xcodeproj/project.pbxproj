@@ -68,6 +68,7 @@
 		2A37F9F218E37536009FAAA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2A37F9F418E37536009FAAA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A37F9FB18E37536009FAAA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30AB2CF51A91045A00590D0D /* CommonConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = CommonConfig.xcconfig; path = ../../../../CommonConfig.xcconfig; sourceTree = "<group>"; };
 		55CCBEF719BA64B200957A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		55CCBEF819BA64B200957A39 /* Lumberjack-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Lumberjack-Info.plist"; path = "../../Desktop/Lumberjack/Lumberjack-Info.plist"; sourceTree = "<group>"; };
 		DA9C2099192A04E100AB7171 /* Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formatter.h; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 		2A37F96E18E37270009FAAA7 = {
 			isa = PBXGroup;
 			children = (
+				30AB2CF51A91045A00590D0D /* CommonConfig.xcconfig */,
 				2A37F97C18E37270009FAAA7 /* Lumberjack */,
 				2A37F9DF18E37536009FAAA7 /* LibTest */,
 				2A37FA0118E37536009FAAA7 /* LibTestTests */,
@@ -384,6 +386,7 @@
 /* Begin XCBuildConfiguration section */
 		2A37F99818E37270009FAAA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AB2CF51A91045A00590D0D /* CommonConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -421,6 +424,7 @@
 		};
 		2A37F99918E37270009FAAA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AB2CF51A91045A00590D0D /* CommonConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
